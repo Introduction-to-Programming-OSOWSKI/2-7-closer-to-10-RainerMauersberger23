@@ -1,8 +1,8 @@
 def close10(x, y):
     if abs(x-10) < abs(y-10):
-        return y
+        return x
 
     else:
-        return x
+        return y
 
 print (close10(8,7))
